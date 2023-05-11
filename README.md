@@ -3,6 +3,7 @@
 ## Deskripsi
 ### Tentang
 Aplikasi ini dapat digunakan dalam melakukan pembacaan dan analisis dari Akses Log web server jenis Apache. Dengan menggunakan aplikasi ini, pengguna juga dapat melakukan pencarian secara spesifik melalui query string.
+
 ![image](https://github.com/TaufikSharePoint/apacheloganalayzer/assets/117842809/fd8a95c4-27d7-4986-b421-2cc29ec11c94)
 
 ---
