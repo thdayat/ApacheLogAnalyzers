@@ -17,7 +17,7 @@ Langkah yang perlu dilakukan adalah sebagai berikut :
  
    ![image](https://github.com/TaufikSharePoint/apacheloganalayzer/assets/117842809/e107aa96-7f0f-4578-9686-3944ccd6dc95)
    
- - Ubah format Tanggal dengan menghilangkan tanda Kurung Siku besar di kedua sisi
+ - Ubah format Tanggal dengan menghilangkan tanda Kurung Siku Besar di kedua sisi
  
    ![image](https://github.com/TaufikSharePoint/apacheloganalayzer/assets/117842809/7c1b6cd8-c677-467c-b642-400f2e5bc8ea)
    
@@ -34,5 +34,6 @@ Langkah yang perlu dilakukan adalah sebagai berikut :
  - akses IP anda pada browser
  - masukkan pencarian kata pada kolom yang disediakan 
  
- ### Pengembangan Lebih Lanjut
- Perlu dilakukan pengembangan lebih lanjut agar program dapat digunakan untuk melakukan beberapa filtering.
+ ### Proses Pengembangan Lebih Lanjut
+ - penyesuaian log otomatis
+ - fitur multiple filtering  
