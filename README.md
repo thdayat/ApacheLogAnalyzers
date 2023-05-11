@@ -1,6 +1,6 @@
 # Apache Log Analayzer
 
-## Deskripsi
+
 ### Tentang
 Aplikasi ini dapat digunakan dalam melakukan pembacaan dan analisis dari Akses Log web server jenis Apache. Dengan menggunakan aplikasi ini, pengguna juga dapat melakukan pencarian secara spesifik melalui query string.
 
