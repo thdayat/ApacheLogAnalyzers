@@ -14,13 +14,18 @@
  *
  *
 */
-// path to access log file
-$log_file = '[your-directory]/log/sample-access.log';
-
-// read log file into array
+//
+//
+// Lokasi file access log //
+//
+$log_file = '[direktori anda]/log/sample-access.log'; //<<<<<<<UBAH LOKASI DIREKTORI SESUAI DENGAN LOKASI LOG YANG AKAN DI ANALISIS
+//
+//
+//
+// ubah log file ke array
 $log_array = file($log_file, FILE_IGNORE_NEW_LINES);
 
-// filter log by keyword
+// filter log melalui query
 if (isset($_GET['filter'])) {
 	$filter = $_GET['filter'];
 	$log_array = array_filter($log_array, function($line) use ($filter) {
@@ -28,7 +33,7 @@ if (isset($_GET['filter'])) {
 	});
 }
 
-// parse log into table rows
+// parsing log
 $rows = '';
 foreach ($log_array as $line) {
 	$parts = explode(' ', $line);
@@ -48,7 +53,7 @@ foreach ($log_array as $line) {
 	$rows .= '</tr>';
 }
 
-// print table rows
+// print
 echo $rows;
 ?>
 
