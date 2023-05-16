@@ -1,4 +1,4 @@
-# Apache Log Analayzer
+# Apache Log Analyzer
 
 
 ### Tentang
