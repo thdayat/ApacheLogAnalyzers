@@ -2,26 +2,30 @@
 <!--
  * index.php
  *
- * Apache Log Parser
+ * Apache Log Analayzer
  *
  * @category   Blue Team Tools
  * @package    Apache Log Analyzer
  * @author     0x545e
  * @copyright  2023 0x545e
  * @license    https://www.php.net/license/3_0.txt  PHP License 3.0
- * @version    1.0.0
+ * @version    2.0.0
  * @link       https://github.com/TaufikSharePoint/apacheloganalayzer
  *
  *
 -->
 <html>
 <head>
-	<title>Apache Log Viewer</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Apache Log Analayzer</title>
+	<link rel="stylesheet" type="text/css" href="style2.css">
 </head>
 <body>
 	<div class="container">
-		<h1>Apache Log Viewer</h1>
+		<h1 style="text-align:center;">Apache Log Analayzer</h1>
+         <table>
+	  <th><a href="http://[IP Anda]/alv">Halaman Konversi</a></th>
+         </table><br></br>
+
 		<form action="index.php" method="get">
 			<label for="filter">Temukan:</label>
 			<input type="text" name="filter" placeholder="Masukkan Kata...">
@@ -48,4 +52,5 @@
 	<script type="text/javascript" src="script.js"></script>
 </body>
 </html>
+
 

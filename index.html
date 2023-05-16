@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!--
+ * index.html
+ *
+ * Apache Log Analayzer
+ *
+ * @category   Blue Team Tools
+ * @package    Apache Log Analyzer
+ * @author     0x545e
+ * @copyright  2023 0x545e
+ * @license    https://www.php.net/license/3_0.txt  PHP License 3.0
+ * @version    2.0.0
+ * @link       https://github.com/TaufikSharePoint/apacheloganalayzer
+ *
+ *
+-->
+<html>
+<head>
+    <title>Log Converter</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>Log Converter</h1>
+
+        <div class="container">
+            <a href="http://[IP Anda]/alv/index.php">Halaman Dashboard</a>
+        </div>
+
+    <div class="container">
+        <form action="log_converter.php" method="post">
+            <label for="logFilePath">Log File Path:</label>
+            <input type="text" name="logFilePath" id="logFilePath">
+            <label for="outputFilePath">Output File Path:</label>
+            <input type="text" name="outputFilePath" id="outputFilePath">
+            <button type="submit">Convert Log</button>
+        </form>
+    </div>
+</body>
+</html>
+
