@@ -16,12 +16,12 @@
 -->
 <html>
 <head>
-	<title>Apache Log Analayzer</title>
+	<title>Apache Log Analyzer</title>
 	<link rel="stylesheet" type="text/css" href="style2.css">
 </head>
 <body>
 	<div class="container">
-		<h1 style="text-align:center;">Apache Log Analayzer</h1>
+		<h1 style="text-align:center;">Apache Log Analyzer</h1>
          <table>
 	  <th><a href="http://[IP Anda]/alv">Halaman Konversi</a></th>
          </table><br></br>
