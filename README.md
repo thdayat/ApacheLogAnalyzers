@@ -13,8 +13,6 @@ Sebelum menggunakan aplikasi, perlu dilakukan sedikit penyesuaian terhadap Log. 
 
 ![image](https://github.com/TaufikSharePoint/apacheloganalayzer/assets/117842809/148b2517-a9db-49c2-9ef2-fc2ea0125a9c)
 
----
-
 Langkah yang perlu dilakukan adalah sebagai berikut :
  - akses IP anda pada laman browser
  - masukkan lokasi log yang akan di konversi dan lokasi penyimpanan log hasil konversi
