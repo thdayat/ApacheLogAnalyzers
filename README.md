@@ -4,36 +4,36 @@
 ### Tentang
 Aplikasi ini dapat digunakan dalam melakukan pembacaan dan analisis dari Akses Log web server jenis Apache. Dengan menggunakan aplikasi ini, pengguna juga dapat melakukan pencarian secara spesifik melalui query string.
 
-![image](https://github.com/TaufikSharePoint/apacheloganalayzer/assets/117842809/fd8a95c4-27d7-4986-b421-2cc29ec11c94)
+![image](https://github.com/TaufikSharePoint/apacheloganalayzer/assets/117842809/b7e925e2-e9a0-481d-99ac-235905b1905c)
 
 ---
 
 ### Penyesuaian Log
-Sebelum menggunakan aplikasi, perlu dilakukan sedikit penyesuaian terhadap Log. Penyesuaian ini dapat dilakukan dengan alat bantu Olah Kata seperti [Notepad++](https://notepad-plus-plus.org/downloads/v8.5.2/).
+Sebelum menggunakan aplikasi, perlu dilakukan sedikit penyesuaian terhadap Log. Penyesuaian ini dapat dilakukan dengan menggunakan fitur Log Converter pada aplikasi ini
+
+![image](https://github.com/TaufikSharePoint/apacheloganalayzer/assets/117842809/148b2517-a9db-49c2-9ef2-fc2ea0125a9c)
+
+---
+
 Langkah yang perlu dilakukan adalah sebagai berikut :
- - Buka alat bantu olah kata, dalam hal ini kami menggunakan Notepad++
- - Lalu gunakan fitur `Find and Replace` dengan menekan tombol `Ctrl + f`
- - Ubah bulan dalam Huruf menjadi Angka seperti pada gambar berikut
+ - akses IP anda pada laman browser
+ - masukkan lokasi log yang akan di konversi dan lokasi penyimpanan log hasil konversi
  
-   ![image](https://github.com/TaufikSharePoint/apacheloganalayzer/assets/117842809/e107aa96-7f0f-4578-9686-3944ccd6dc95)
-   
- - Ubah format Tanggal dengan menghilangkan tanda Kurung Siku Besar di kedua sisi
+ ![image](https://github.com/TaufikSharePoint/apacheloganalayzer/assets/117842809/f3bdccae-efda-4624-b692-797a85074da8)
  
-   ![image](https://github.com/TaufikSharePoint/apacheloganalayzer/assets/117842809/7c1b6cd8-c677-467c-b642-400f2e5bc8ea)
-   
-   ![image](https://github.com/TaufikSharePoint/apacheloganalayzer/assets/117842809/012e5562-215a-4e9a-936c-56d95df8fbe3)
-   
- - Ubah format 'tanggal/bulan/tahun:jam:menit:detik' menjadi 'tanggal/bulan/tahun jam:menit:detik'  dengan menghilangkan tanda `:` antara tahun dan jam
+ - setelah form terisi, tekan tombol konversi
+ - apabila konversi berhasil, anda akan diarahkan ke laman seperti berikut
  
-   ![image](https://github.com/TaufikSharePoint/apacheloganalayzer/assets/117842809/5e5648bf-3cc3-47a8-a88e-4f81f46dd440)
-
-
+ ![image](https://github.com/TaufikSharePoint/apacheloganalayzer/assets/117842809/046306f4-d62d-44a8-a838-cee630e0b10a)
+ 
+ - jika ingin melanjutkan konversi log lain, bisa memilih menu Halaman Konversi
+ - jika ingin melakukan analisis, bisa memilih menu Halaman Dashboard
+ 
 ### Penggunaan Program
  - lakukan penyesuaian  log seperti pada pembahasan diatas
- - ubah bagian konfigurasi `path access log` sesuai lokasi access log yang akan di analisis
+ - ubah bagian konfigurasi `path access log` sesuai lokasi access log yang akan di analisis pada file log_parser.php
  - akses IP anda pada browser
  - masukkan pencarian kata pada kolom yang disediakan 
  
  ### Proses Pengembangan Lebih Lanjut
- - penyesuaian log otomatis
  - fitur multiple filtering  
